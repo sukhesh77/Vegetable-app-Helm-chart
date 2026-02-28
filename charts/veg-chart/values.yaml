@@ -3,7 +3,7 @@ namespace: sukhesh-ns
 #configmap details
 configmap:
   data:
-    MONGO_URI: "mongodb://vegetable-app-headless:27017/vegetable_order_app"
+    MONGO_URI: "mongodb://retail-release-headless:27017/vegetable_order_app"
     MONGO_INITDB_DATABASE: "vegetable_order_app"
 
 #deployment details
